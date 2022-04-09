@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.horizontal{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.815);
+}
+
+ul.horizontal .active{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container-flex{
+  display: flex;
+  margin: 50px;
+  justify-content: space-around;
+}
+
+.info{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-justify: auto;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.container-summary{
+  display: flex;
+  margin: 15rem;
+  justify-content: space-around;
+}
+
+.rockets-info{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-justify: auto;
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+  border-radius: 30px;
+}
+
+.company-info{
+  font-size: 26px;
+}
